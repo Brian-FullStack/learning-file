@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif; 
+}
+
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 5;
+}
+
+.site-wide-alert{
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #ccad4e;
+    border-color: #ccad4e;
+}
+
+.container-wrapper{}
+
+.container-wrapper--red{
+    background-color: #f05f40;
+    color: white;
+}
+
+.callout-container{
+    height: 100vh; 
+    background: url("../images/whiskey-pour.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.reviews-container{}
+
+.features-container{}
+
+/*Block Divider*/
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange{
+    background-color: #704800;
+}
+
+.block-divider--white{
+    background-color: white;
+}
+
+.block-divider--short{
+    width: 35px;
+    margin-bottom: 45px;
+}
+/*Jumbotron*/
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron .lead{
+    margin: 25px;
+    color: #d46873
+}
+
+.jumbotron small{
+    font-size: 60%;
+    font-style: italic;
+    color: lightgray;
+}
+
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*Buttons*/
+
+.btn--cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    justify-content: center;
+}
+
+.btn--red{
+    color: #fff;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:focus,
+.btn--red:active,
+.btn--red:active:focus{
+    background-color: #df4929;
+    border-color: #df4929;
+}
+
+
+/*Navbar*/
+
+.navalert-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar .navbar-toggler{
+    border: 0;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.navbar{
+    margin: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+/*Page Headers*/
+.page-header h2{
+    margin-top: 0;
+    text-align: center;
+}
+
+.reviews .page-header{
+    margin-bottom: 25px;
+}
+
+/*Content Containers*/
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/*Features*/
+.feature{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.feature i{
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
